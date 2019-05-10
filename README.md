@@ -1,4 +1,4 @@
-# Тестовое задание [опубликовано по ссылке](https://graysergey.github.io/Test-task-CRM-published/).:
+# Тестовое задание [опубликовано по ссылке](https://graysergey.github.io/Test-task-CRM-published/):
 
 **Необходимо реализовать:**
 
