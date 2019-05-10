@@ -1,0 +1,17 @@
+// Normalize
+@import "../../node_modules/normalize-scss/sass/_normalize.scss";
+@include normalize();
+
+// Fonts
+@import "fonts";
+
+// Common styles
+@import "global";
+
+// Blocks
+@import "blocks/side-bar";
+@import "blocks/main-content";
+@import "blocks/search-bar";
+@import "blocks/content-wrapper";
+@import "blocks/page-main";
+@import "blocks/context-menu";

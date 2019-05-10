@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Тестовое задание - двух панельная вёрстка">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Test</title>
+  </head>
+  <body>
+
+    <main class="page-main">
+      <h1 class="visually-hidden">Тестовое задание</h1>
+
+      <aside class="side-bar">
+        <h2 class="visually-hidden">Панель навигации</h2>
+      </aside>
+
+      <div class="content-wrapper">
+        <section class="content-wrapper__main-content main-content">
+          <h2 class="visually-hidden">Основной контент</h2>
+        </section>
+
+        <section class="content-wrapper__search-bar search-bar">
+          <h2 class="visually-hidden">Панель добавления пунктов в список</h2>
+        </section>
+      </div>
+      <ul class="context-menu">
+        <li class="context-menu__item">
+          <a href="#" class="context-menu__link">
+            View Task
+          </a>
+        </li>
+        <li class="context-menu__item">
+          <a href="#" class="context-menu__link">
+            Edit Task
+          </a>
+        </li>
+        <li class="context-menu__item">
+          <a href="#" class="context-menu__link">
+            Delete Task
+          </a>
+        </li>
+      </ul>
+    </main>
+
+    <template id="content-list">
+      <ul class="main-content__list">
+        <li class="main-content__item">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quaerat perspiciatis eius, aliquid numquam recusandae.
+        </li>
+        <li class="main-content__item">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, voluptatum?
+        </li>
+        <li class="main-content__item">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit natus a, ipsa reiciendis animi!
+        </li>
+        <li class="main-content__item">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est aut saepe, quae eos consectetur.
+        </li>
+        <li class="main-content__item">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, voluptatibus.
+        </li>
+        <li class="main-content__item">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quaerat perspiciatis eius, aliquid numquam recusandae.
+        </li>
+      </ul>
+    </template>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

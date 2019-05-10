@@ -1,0 +1,26 @@
+.search-bar {
+  height: 15vh;
+  border: 1px solid silver;
+}
+
+.search-bar__form {
+  display: flex;
+  justify-content: space-around;
+  padding: 2vh;
+}
+
+.search-bar__input {
+  width: 80%;
+  height: 10vh;
+  padding: 2%;
+
+  vertical-align: middle;
+
+  background-color: lightgrey;
+  border: none;
+}
+
+.search-bar__btn {
+  width: 15%;
+  background-color: lavender;
+}

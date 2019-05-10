@@ -1,0 +1,37 @@
+.context-menu {
+  position: absolute;
+
+  display: none;
+  flex-direction: column;
+
+  min-width: 150px;
+  margin: 0;
+  padding: 0;
+
+  background-color: #ffffff;
+
+  list-style: none;
+  z-index: 10;
+
+  &--show {
+    display: flex;
+  }
+}
+
+.context-menu__item {
+  vertical-align: middle;
+  padding: 0.5em;
+  border: 1px solid sandybrown;
+
+  &:not(:last-child) {
+    border-bottom: none;
+  }
+}
+
+.context-menu__link {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 500;
+  color: gray;
+}

@@ -1,0 +1,29 @@
+// Common styles
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+
+// Helpers
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
